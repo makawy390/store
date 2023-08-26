@@ -1,0 +1,40 @@
+
+.img{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.img svg{
+    position: absolute;
+    font-size: 30px;
+    right: -30px;
+    color: var(--color);
+    cursor: pointer;
+    bottom: 10px;
+    transition: all ease-in-out 0.5s;
+}
+.img:hover svg{
+    right: 10px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+
+}
+.flex svg{
+    font-size: 15px;
+    cursor: pointer;
+    color: var(--color);
+}
+.css-46bh2p-MuiCardContent-root{
+    padding:15px 0 0  0 !important;
+    color: #333 !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto !important;
+}

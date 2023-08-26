@@ -1,0 +1,94 @@
+.nav-bar .toggle svg{
+    font-size: 25px;
+    cursor: pointer;
+    position: fixed;
+    top: 30px;
+    right: 200px;
+    color: #fff;
+    background-color: #333;
+    width: 40px;
+    padding: 5px;
+    height: 30px;
+    border-radius: 2px;
+    z-index: 1002;
+    font-weight: 700;
+    direction: ltr;
+}
+@media (max-width :  567px){
+    .nav-bar .toggle svg{
+        right: 10px;
+    }
+}
+@media (min-width :  768px) and (max-width : 991px ) {
+    .nav-bar .toggle svg{
+        right: 30px;
+    }
+}
+@media (min-width :  992px) and (max-width : 1200px ) {
+    .nav-bar .toggle svg{
+        right: 80px !important;
+    }
+}
+
+.navigate{
+    display: flex;  
+    background-color: #151c28;
+    color: #fff;
+    flex-direction: column;
+    height: 102%;
+    position: fixed;
+    padding: 30px;
+    line-height: 2;
+    z-index: 1001;
+    left:  -180px;
+    top: 0;
+    width: 180px;
+    transition: ease-in-out 0.5s ;
+}
+.navigate.active{
+    left:  0;
+
+}
+.navigate ul{
+    list-style: none;
+    padding: 0;
+}
+.navigate a{
+    text-decoration: none;
+    color: #fff;
+}
+.navigate a.active{
+    color: var(--color);
+}
+.navigate svg{
+    position: relative;
+    font-size: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all ease-in-out 1s;
+}
+.navigate svg:hover{
+    color: var(--color);
+}
+.navigate .count{
+    background-color: var(--color);
+    width: 22.5px;
+    height: 22.5px;
+    line-height: 22.5px;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    bottom: 160px;
+    left: 62px;
+}
+.navigate .count-two{
+    background-color: var(--color);
+    width: 22.5px;
+    height: 22.5px;
+    line-height: 22.5px;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    bottom: 152px;
+    left: 80px;
+}

@@ -1,0 +1,14 @@
+.not-found{
+/* width: 300px; */
+min-height: 86vh ;
+padding: 100px 0;
+}
+.not-found .not-found-img{
+    width: 300px;
+    height: auto;
+}
+.not-found h5{
+    font-size: 35px;
+    font-weight: 800;
+    color: var(--color);
+}

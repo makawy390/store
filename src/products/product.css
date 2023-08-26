@@ -1,0 +1,72 @@
+.all{
+    padding: 80px 0;
+    min-height: 100vh;
+}
+
+.product-show{
+    min-height: 100vh;
+    padding: 100px 0;
+}
+
+.product-show button.add , .product-show button.buy{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.product-show .add{
+    background-color: transparent;
+    color: var(--color);    
+    border: 1px solid var(--color);
+
+}
+.product-show .buy{
+    background-color: var(--color);
+    color: #fff;
+    border: 1px solid var(--color);
+
+}
+.all .list{
+    display: flex;
+    width: 100%;
+    align-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.all .list input{
+    margin: 15px;
+    background-color: transparent;
+    border: 1px solid #f02d34;
+    padding: 5px 25px;
+    transition: ease-in-out 0.5s;
+}
+.list input:hover{
+    background-color: #f02d34;
+    color: #fff;
+}   
+.shopping{
+    padding: 80px 0;
+    min-height: 85vh;
+    position: relative;
+}
+.shopping h3 , .all h3{
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.all-products{
+    padding: 80px 0;
+}
+
+@media (max-width : 567px) {
+    .css-7i0j0u-MuiGrid-root{
+        flex-direction : column !important;
+    }
+}
+
+.img-fluid {
+    max-width: 100%;
+    /* height: auto; */
+}

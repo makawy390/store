@@ -1,0 +1,12 @@
+.category{
+    padding: 100px 0; 
+}
+
+.category h4{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.MuiFormControl-root{
+    width: 100% !important; 
+}
